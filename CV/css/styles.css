@@ -1,5 +1,5 @@
 .main-container {
-    width: 1200px;
+    width: 50%;
     display: flex;
 }
 
@@ -15,8 +15,18 @@
 
 .references {
     display: flex;
+    justify-content: space-between;
 }
 
+.dropdown{
+    display: flex;
+    justify-content: end;
+}
+
+.cadaReferencia{
+    display: flex;
+    flex-direction: column;
+}
 
 .references img {
     width: 100px;
@@ -25,7 +35,67 @@
 ul {
     list-style-type: none;
 }
+i{
+    font-size: 1.2rem;
+    color: #7b818e;
+}
+#socialContact{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 
+}
+#elementosContact{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:2rem;
+    justify-content: center;
+}
+
+#iconWsp{
+    color: #080105;
+    font-size: 1.8rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 2px rgba(51, 245, 2, 0.459);
+    transition: 0.5s;
+
+}
+#iconLinkedin{
+    color: #080105;
+    font-size: 1.8rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 2px rgba(2, 6, 245, 0.514);
+    transition: 0.5s;
+}
+#iconGithub{
+    color: #080105;
+    height: 1.5rem;
+    border-radius: 15px;
+    font-size: 1.8rem;
+    box-shadow: 3px 3px 10px 3px rgba(136, 2, 245, 0.459);
+    transition: 0.5s;
+}
+
+#iconWsp:hover{
+
+    color: rgb(18, 102, 7);
+    box-shadow: 3px 3px 10px 3px rgba(250, 250, 250, 0.788);
+}
+#iconLinkedin:hover{
+
+    color: rgb(21, 58, 219);
+    box-shadow: 3px 3px 10px 3px rgba(250, 250, 250, 0.788);
+}
+#iconGithub:hover{
+
+    color: rgb(105, 47, 153);
+    box-shadow: 3px 3px 10px 3px rgba(250, 250, 250, 0.788);
+}
 h1,
 h2 {
     text-transform: uppercase;
@@ -72,7 +142,7 @@ dt {
 }
 
 meter {
-    width: 80%;
+    width: 70%;
 }
 
 ::-webkit-meter-optimum-value{
